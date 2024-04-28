@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #000080;
+  overflow: auto;
+}
+.navbar p {
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 0.1%;
+  font-size: 18px;
+}
+.navbar img {
+  float: left;
+  padding: 0.1%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 1.5%;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000040;
+}
+.navbar a.active {
+  background-color: #000040;
+  color: white;
+}

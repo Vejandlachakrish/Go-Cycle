@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+}
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #000080;
+  overflow: auto;
+}
+.navbar p {
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 0.1%;
+  font-size: 18px;
+}
+.navbar img {
+  float: left;
+  padding: 0.1%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 1.5%;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000040;
+}
+.navbar a.active {
+  background-color: #000040;
+  color: white;
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 98%;
+  padding-left: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 28px 32px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+/* 2nd box*/
+/* Position text in the middle of the page/image */
+
+.bg1-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 98%;
+  padding-left: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2 {
+  content: "";
+  clear: both;
+  display: table;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}
+
+/* 3nd box*/
+/* Position text in the middle of the page/image */
+
+.bg2-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 225%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 98%;
+  padding-left: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column3 {
+  float: right;
+  width: 50%;
+  padding-right: 10px;
+}
+
+/* Clear floats after image containers */
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row4 {
+  content: "";
+  clear: both;
+  display: table;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.column4 {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+}

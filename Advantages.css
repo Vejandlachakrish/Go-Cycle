@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+}
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #000080;
+  overflow: auto;
+}
+.navbar p {
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-top: 0.1%;
+  font-size: 18px;
+}
+.navbar img {
+  float: left;
+  padding: 0.1%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links */
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 1.5%;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000040;
+}
+.navbar a.active {
+  background-color: #000040;
+  color: white;
+}
+
+div.heading h2 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  width: auto;
+  height: auto;
+  padding: 1%;
+  padding-bottom: 3%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 98%;
+  height: 238px;
+  padding: 3%;
+}
+
+div.desc {
+  text-align: center;
+  color: black;
+}
+div.desc p {
+  font-weight: bold;
+}
+div.desc1 {
+  text-align: left;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 20px;
+  padding-top: 30px;
+  float: left;
+  width: 33.33%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  top: 66%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 92%;
+  padding-left: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/*--2nd--*/
+
+div.gallery1 {
+  border: 1px solid #ccc;
+  width: auto;
+  height: auto;
+  padding: 1%;
+  padding-bottom: 3%;
+}
+
+div.gallery1:hover {
+  border: 1px solid #777;
+}
+
+div.gallery1 img {
+  width: 98%;
+  height: 238px;
+  padding: 3%;
+}
+
+div.desc2 {
+  text-align: center;
+  color: black;
+}
+div.desc2 p {
+  font-weight: bold;
+}
+div.desc3 {
+  text-align: left;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive1 {
+  padding: 20px;
+  padding-top: 30px;
+  float: left;
+  width: 33.33%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive1 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive1 {
+    width: 100%;
+  }
+}
+.clearfix1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bg1-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  top: 155%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 92%;
+  padding-left: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/* 3rd  */
+
+div.gallery2 {
+  border: 1px solid #ccc;
+  width: auto;
+  height: auto;
+  padding: 1%;
+  padding-bottom: 3%;
+}
+
+div.gallery2:hover {
+  border: 1px solid #777;
+}
+
+div.gallery2 img {
+  width: 98%;
+  height: 238px;
+  padding: 3%;
+}
+
+div.desc4 {
+  text-align: center;
+  color: black;
+}
+div.desc4 p {
+  font-weight: bold;
+}
+div.desc5 {
+  text-align: left;
+  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive2 {
+  padding: 20px;
+  padding-top: 30px;
+  float: left;
+  width: 33.33%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive2 {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive2 {
+    width: 100%;
+  }
+}
+.clearfix2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bg2-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  background-color: transparent;
+  position: absolute;
+  top: 245%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 92%;
+  padding-left: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
